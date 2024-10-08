@@ -1,4 +1,4 @@
-const BASE_URL = 'https://capstone-backend-production-ce8b.up.railway.app/api'
+const BASE_URL = 'https://9d16cb10-9525-4902-9603-128d133e3432.up.railway.app/'
 // const BASE_URL = 'http://ecommerce-restful-api.test/api'
 
 function getAccessToken() {
