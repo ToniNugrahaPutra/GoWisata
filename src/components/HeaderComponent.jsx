@@ -50,27 +50,27 @@ const HeaderComponent = () => {
         <Container>
           <Navbar.Brand>
             <Link className='text-decoration-none text-white' to='/'>
-              GoWisata
+              LiburinAja
             </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls='responsive-navbar-nav' />
           <Navbar.Collapse id='responsive-navbar-nav'>
             <Nav className='ms-auto header-link'>
-              <Link className='nav-link mx-3 px-3' to='/articles'>
+              {/* <Link className='nav-link mx-3 px-3' to='/articles'>
                 Artikel
-              </Link>
-              <Link className='nav-link mx-3 px-3' to='/tourism'>
+              </Link> */}
+              {/* <Link className='nav-link mx-3 px-3' to='/tourism'>
                 Jelajahi
-              </Link>
+              </Link> */}
               {/* Link explore nih bisa dimanfaatkan sebagai halaman yang memberikan rekomendasi tempat wisata (Semacam pages explore instagram) */}
               {authedUser != null && (
                 <Link to='/user/booking' className='nav-link mx-3 px-3'>
                   Pesanan Saya
                 </Link>
               )}
-              <Link className='nav-link mx-3 px-3' to='/about'>
+              {/* <Link className='nav-link mx-3 px-3' to='/about'>
                 Tentang Kami
-              </Link>
+              </Link> */}
               {authedUser != null ? (
                 <NavDropdown title={authedUser.name} id='collasible-nav-dropdown' className='header-link'>
                   <Link className='dropdown-item' to='/user/profile'>

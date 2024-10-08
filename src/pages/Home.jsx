@@ -46,15 +46,15 @@ const Home = () => {
               <h2 className='text-center'>Ingin pergi liburan?</h2>
               <p>
                 {/* Have you ever been confused to find information about interesting tours in Malang? or looking for places that are popular
-                and have never been visited in Malang? .now GoWisata is here to solve your problem, at GoWisata you can find information
-                about interesting tourism in the Malang area, not only information about tourism, at GoWisata there are also travel ticket
+                and have never been visited in Malang? .now LiburinAja is here to solve your problem, at LiburinAja you can find information
+                about interesting tourism in the Malang area, not only information about tourism, at LiburinAja there are also travel ticket
                 bookings available which will definitely make it easier for you and your family to visit various tourist attractions in
                 poor. Come on, register your account immediately and order tickets now.  */}
                 Pernahkah Anda bingung untuk menemukan informasi mengenai tempat wisata yang menarik di Malang? atau mencari tempat yang
-                populer dan belum pernah Anda kunjungi di Malang? Sekarang GoWisata ada untuk menyelesaikan masalah Anda, di GoWisata Anda
-                bisa menemukan informasi tentang tempat wisata yang menarik di area Malang, tidak hanya informasi tentang tempat wisata, di
-                GoWisata Anda bisa membeli Ticket Wisata yang mana hal tersebut sangat memudahkan Anda dan keluarga Anda untuk mengunjungi
-                berbagai tempat wisata yang menarik. Ayo, daftarkan akunmu segera dan pesan ticket sekarang.
+                populer dan belum pernah Anda kunjungi di Malang? Sekarang LiburinAja ada untuk menyelesaikan masalah Anda, di LiburinAja
+                Anda bisa menemukan informasi tentang tempat wisata yang menarik di area Malang, tidak hanya informasi tentang tempat
+                wisata, di LiburinAja Anda bisa membeli Ticket Wisata yang mana hal tersebut sangat memudahkan Anda dan keluarga Anda untuk
+                mengunjungi berbagai tempat wisata yang menarik. Ayo, daftarkan akunmu segera dan pesan ticket sekarang.
               </p>
               <div className='d-flex justify-content-end'>
                 <Link to='/tourism'>
@@ -76,9 +76,9 @@ const Home = () => {
             <Col sm={5} className='p-lg-5' data-aos={'fade-left'}>
               <h2 className='text-center'>Berita terbaru tentang wisata?</h2>
               <p>
-                {/* On GoWisata, an article page is also available which makes it easier for you to find out the latest news about tourism
+                {/* On LiburinAja, an article page is also available which makes it easier for you to find out the latest news about tourism
                 around Semarang district. */}
-                Di GoWisata, ada halaman artikel yang juga memudahkan Anda untuk menemukan berita terbaru tentang tempat wisata
+                Di LiburinAja, ada halaman artikel yang juga memudahkan Anda untuk menemukan berita terbaru tentang tempat wisata
               </p>
               <div className='d-flex justify-content-end'>
                 <Link to='/articles'>
@@ -97,7 +97,7 @@ const Home = () => {
               <FaInfoCircle className='fs-1 border border-dark border-2 rounded-circle p-1' />
             </div>
             <p style={{ textAlign: 'justify' }}>
-              Aplikasi GoWisata memberikan informasi mengenai artikel tempat liburan, yang mana membuat anda tidak bingung untuk mencari
+              Aplikasi LiburinAja memberikan informasi mengenai artikel tempat liburan, yang mana membuat anda tidak bingung untuk mencari
               tempat wisata yang ada di Kabupaten Malang.
             </p>
           </div>

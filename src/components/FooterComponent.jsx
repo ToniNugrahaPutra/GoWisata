@@ -6,7 +6,7 @@ const FooterComponent = () => {
       className='position-sticky w-100 d-flex justify-content-center align-items-center text-white'
       style={{ backgroundColor: '#0AA1DD' }}
     >
-      <p className='mb-0'>Copyright © 2022 - GoWisata</p>
+      <p className='mb-0'>Copyright © 2024 - LiburinAja</p>
     </footer>
   )
 }
