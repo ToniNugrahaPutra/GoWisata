@@ -1,9 +1,6 @@
 const BASE_URL = 'https://capstone-backend-production-ce8b.up.railway.app/api'
 // const BASE_URL = 'http://ecommerce-restful-api.test/api'
 
-import axios from 'axios';
-
-
 function getAccessToken() {
   return localStorage.getItem('accessToken')
 }
